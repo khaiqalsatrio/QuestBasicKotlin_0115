@@ -7,5 +7,5 @@ fun uppercaseString(String: String): String{
 fun main(){
     uppercaseString("hello")
     println({string: String -> string.uppercase()}("hello"))
-    //hello
+    //helo
 }
