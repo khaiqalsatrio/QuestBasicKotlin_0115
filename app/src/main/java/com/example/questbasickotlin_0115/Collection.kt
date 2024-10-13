@@ -26,3 +26,12 @@ fun ContohList() {
     val shapesLocked: List<String> = shape
     println(shapesLocked)
 }
+
+fun ContohSet() {
+    println()
+    println("=== set ===")
+
+    //set read-only
+    val readOnlyAbjad = setOf("A", "B", "C")
+    println(readOnlyAbjad)
+}
