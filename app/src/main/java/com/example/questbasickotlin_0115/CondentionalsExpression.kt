@@ -33,3 +33,29 @@ fun CondintionalStatement(){
         println("Invalid Number")
     }
 }
+
+fun perulangan(){
+    println()
+    println("=== perulangan ===")
+
+    for (i in 1..5){
+        println("perulangan ke-$i")
+    }
+
+    val cars = listOf("BMW", "Toyota", "Honda", "Audi")
+    for (car in cars){
+        println("Car type: $car")
+    }
+
+    var x = 1
+    while (x <= 5){
+        println("perulangan ke-$x")
+        x++
+    }
+
+    var y = 1
+    do {
+        println("perulangan ke-$y")
+        y++
+    }while (y <= 5)
+}
