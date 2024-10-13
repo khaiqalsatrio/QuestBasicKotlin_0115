@@ -59,3 +59,8 @@ fun perulangan(){
         y++
     }while (y <= 5)
 }
+
+fun main(){
+    CondintionalStatement()
+    perulangan()
+}
